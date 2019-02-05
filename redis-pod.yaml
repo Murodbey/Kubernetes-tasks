@@ -7,9 +7,7 @@ spec:
   containers:
   - image: redis
     name: redis
-    stdin: true
-    tty: true
     ports:
     - containerPort: 9090
-      name: http
+      name: redispod
       protocol: TCP
